@@ -1,0 +1,22 @@
+{
+  "name": "yellow_db",
+  "version": "1.0.0",
+  "description": "database of yellow shops",
+  "main": "index.js",
+  "author": "alanho",
+  "license": "MIT",
+  "dependencies": {
+    "@google/maps": "^1.0.2",
+    "dotenv": "^8.2.0",
+    "hk-address-parser-lib": "^0.3.3",
+    "xlsx": "^0.15.1"
+  },
+  "scripts": {
+    "import": "node import.js"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}
